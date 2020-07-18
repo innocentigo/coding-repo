@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.content{
+    width: 80%;
+    margin: auto;
+    
+    
+    
+}
+
+.highlight{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.inside-menu{
+    position: fixed;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: black;
+    border-radius:50px;
+    height: 60%;
+    padding-top: 30px;
+    overflow: hidden;
+    transition: 1s;
+    opacity: 0.9;
+}
+
+.inside-menu a:hover{
+    color: steelblue;
+}
+.inside-menu a{
+    text-decoration: none;
+    color:white;
+    padding: 20px 40px;
+    display: block;
+    font-size: 20px;
+    
+    
+}
+.close-btn{
+    font-size: 100px;
+    position: relative;
+    top: 0;
+    left: 60%;
+    
+    
+}
+#content{
+    float: right;
+    width: 10%;
+    position: relative;
+    bottom: 40px;
+    
+
+    
+}
+.showcase .content{
+    min-height: 300px;
+    
+    
+}
+.showcase .pic{
+    position: absolute;
+    background-image: url('sky.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height: 300px;
+    width: 60%;
+    z-index: -7;
+    opacity:0.7;
+    overflow: hidden;
+    
+    
+}
+.showcase p{
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    top: 200px;
+    padding-left: 20px 
+}
+
+.section-A h2{
+    border-bottom: solid black 1px;
+    padding-top: 5px;
+}
+.section-A .flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-A .part{
+    flex-basis: 35%;
+    
+}
+.section-A article{
+    flex-basis: 15%;
+    
+}
+.btn{
+    background: black;
+    color: white;
+    padding: 5px;
+}
+#showcase img{
+    height: 200px;
+    width: 79%;
+    float: left;
+}
+#showcase .list h2{
+    padding-left:25px;
+}
+
+#showcase .list{
+    float: right;
+    width: 20%;
+    background:black;
+    color: white;
+    height: 500px;
+    
+    
+}
+#showcase li{
+    padding: 10px;
+}
+.section-B .grid{
+    display:flex;
+    justify-content: space-between;
+}
+.section-B .part-1{
+    flex-basis: 49%;
+}
+
+.section-C .flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-C .part-2 {
+    flex-basis: 49%;
+    height: 200px;
+    
+}
+.section-D .flex{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.section-D .part-2{
+    flex-basis: 40%;
+    
+    
+}.section-D #padding{
+    padding-right: 150px;
+}

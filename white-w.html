@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initail-scale=1.0">
+        <meta http-equiv="X UA-compitable" content="ie-edge">
+        <title>30 days project</title>
+        <link rel="stylesheet" href="white.css">
+        <script>
+                function openSlideMenu(){
+                   document.getElementById("inside-menu").style.width='200px';
+                   document.getElementById("content").style.marginLeft='200px';
+                }
+                function closeSlideMenu(){
+                   document.getElementById("inside-menu").style.width='0';
+                   document.getElementById("content").style.marginLeft='0';
+                }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="content">
+            <div id="branding">
+                <h1>Black + white</h1>
+            </div>
+            <div  id="content">
+                    <span id="side-menu">
+                        <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="black" stroke-width="5"></path>
+                            <path d="M0,15 30,15" stroke="black" stroke-width="5"></path>
+                            <path d="M0,25 30,25" stroke="black" stroke-width="5"></path>
+                         </svg>
+                         </a>
+                    </span>
+                     <div id="inside-menu" class="inside-menu">
+                         <a href="#"class="close-btn"onclick="closeSlideMenu()">&times;</a>
+                         <a href="white.html">Home</a>
+                         <a href="white-s.html">OurSerivice</a>
+                         <a  class="current"href="white-w.html">How we work</a>
+                     </div>
+            </div>
+            </div>
+        </header>
+
+        <div class="section-C">
+            <div class="content">
+                <div class="flex">
+                <img id="sky" src="sky.png" class="part-2">
+                <img id="house"src="house.png" class="part-2">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-D">
+            <div class="content">
+               <div class="flex">
+               <div class="part-2">
+                <h2>work example</h2>
+                <h2> and a very brife description of the work in large bold letter followed by</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui repellat itaque quasi magnam est ipsam a et dolores, optio provident!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cupiditate cumque quisquam quo ex temporibus beatae. Saepe, autem. Quidem itaque quasi molestias debitis soluta totam iste ducimus! Laboriosam adipisci doloremque voluptatibus quae, commodi accusamus sint, fugiat minima pariatur eaque officiis.</p>
+                </div>
+
+                <div class="part-2" id="padding">
+                <h2>work experience</h2>
+                <h2>A very brife description of the work in a large bold letter followed by</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reprehenderit perspiciatis architecto sequi voluptas nemo omnis, culpa quam ipsa possimus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ducimus nemo facilis veritatis non rem aperiam dolorum perferendis nostrum molestias tempore laborum quo architecto ab vero, doloremque atque commodi itaque quibusdam odio optio velit! Doloribus, omnis impedit. Dolorem, mollitia quae.</p>
+                </div>
+                </div>
+           </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,89 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.picture, .picture-2, .picture-3,.picture-4{
+    position: relative;
+    background-image: url('setup.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+    display: flex;
+}
+.picture h1, .picture-3 h1{
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.section-1 .grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 40px;
+    margin-top: 30px;
+}
+.grid-2 p{
+    text-align: left;
+}
+.section-1 h1,p{
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.picture-2{
+    background-image: url('house.png');
+    height: 60%;
+}
+.picture-2 h1{
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px  black;
+}
+.section-2{
+    background: black;
+    color: whitesmoke;
+    overflow: hidden;
+    
+}
+.section-2 h1,p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.picture-3{
+    background-image: url('virus.png');
+    height: 40%;
+}
+.section-3 .flex-2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-3 .flex{
+    flex-basis: 45%;
+    
+}
+.section-3 p{
+    text-align: left;
+}
+.picture-4{
+    background-image: url('setup.jpg');
+}
+
+@media(max-width:768px){
+   
+}
